@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Curso: Entendendo a Dor de Cabeça</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1769aa, #42a5f5);
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    header h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 17px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 25px auto;
+      padding: 0 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      color: #1769aa;
+      margin-bottom: 12px;
+    }
+
+    .card ul {
+      padding-left: 22px;
+    }
+
+    .aviso {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    .botao {
+      display: inline-block;
+      background: #1769aa;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #17202a;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🧠 Curso: Entendendo a Dor de Cabeça</h1>
+    <p>Informações simples para aprender mais sobre dores de cabeça</p>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h2>📚 Aula 1 — O que é dor de cabeça?</h2>
+      <p>
+        Dor de cabeça é um sintoma bastante comum e pode acontecer por
+        diferentes motivos. Ela pode variar em intensidade, duração e
+        localização.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>🔎 Aula 2 — Tipos comuns</h2>
+      <ul>
+        <li>Dor de cabeça tensional</li>
+        <li>Enxaqueca</li>
+        <li>Dores relacionadas a outros problemas de saúde</li>
+      </ul>
+
+      <div class="aviso">
+        <strong>Importante:</strong>
+        este curso tem finalidade educativa e não substitui uma avaliação
+        feita por um profissional de saúde.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>💡 Aula 3 — O que pode influenciar?</h2>
+      <ul>
+        <li>Estresse e tensão</li>
+        <li>Falta de sono</li>
+        <li>Desidratação</li>
+        <li>Alimentação irregular</li>
+        <li>Tempo excessivo diante de telas</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🚨 Aula 4 — Quando procurar ajuda?</h2>
+      <p>
+        Uma dor de cabeça muito forte, diferente do habitual, recorrente ou
+        acompanhada de outros sintomas deve ser avaliada por um profissional
+        de saúde.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>🎓 Conclusão</h2>
+      <p>
+        Conhecer melhor os tipos de dor de cabeça pode ajudar a entender
+        informações sobre o assunto e saber quando é importante procurar
+        orientação profissional.
+      </p>
+
+      <a class="botao" href="#inicio">Voltar ao início</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 — Curso Educativo sobre Dor de Cabeça</p>
+  </footer>
+
+</body>
+</html>
